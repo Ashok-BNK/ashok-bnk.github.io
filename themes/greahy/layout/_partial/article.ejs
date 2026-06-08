@@ -25,6 +25,7 @@
       <% } %>
     </div>
     <footer class="article-footer">
+      <a href="<%- url_for('/2026/06/06/2/') %>">Дисклеймер</a>
 <!--      <a data-url="<%- post.permalink %>" data-id="<%= post._id %>" data-title="<%= post.title %>" class="article-share-link"><%= __('share') %></a>-->
       <% if (post.comments && config.disqus_shortname){ %>
         <a href="<%- post.permalink %>#disqus_thread" class="article-comment-link"><%= __('comment') %></a>
